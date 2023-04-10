@@ -1,6 +1,7 @@
 # Shift RecSports - REACT.JS
 Este es el repositorio correspondiente a la aplicacion de RecSports para generar reservaciones y visualizar aforo del gimnasio
 
+--- 
 ## Archivos y Folders
 <img width="162" alt="image" src="https://user-images.githubusercontent.com/70722142/230911700-62457763-5525-4b4d-a9c0-b29b89b152bf.png">
 Los contenidos de cada folder son los siguientes:
@@ -15,6 +16,7 @@ Los contenidos de cada folder son los siguientes:
 - **Types:** Tipos e interfaces de TypeScript compartidas para varios componentes, así como los types de respuestas de la API
 - **Utils:** Funciones y utilidades adicionales para el funcionamiento de la aplicación, comúnmente para uso de una sola vez de manera global, por ejemplo el Theme, funciones de Rutas Protegidas, etc.
 
+--- 
 ## Routing
 El Routing está definido en App.tsx de la siguiente manera:
 <img width="652" alt="image" src="https://user-images.githubusercontent.com/70722142/230913860-f83a87d4-3547-4e81-979c-ee0222a2b319.png">
@@ -23,7 +25,7 @@ Para cada una de las rutas, se debe conectar a una ruta específica como se mues
 
 **Después actualizo esta sección, pues existen rutas protegidas que dependen del tipo de usuario**
 
-
+--- 
 ## Estilos
 El framework de componentes y estilos utilizados es [Material-UI](https://mui.com/material-ui/getting-started/overview/).
 Existen 3 maneras de generar estilos CSS para los componentes:
@@ -63,6 +65,7 @@ Finalmente, existen estilos globales aplicados en la **Theme** de la página que
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/70722142/230918957-4bb28f7d-f2e1-4a3b-bf63-3d8f8f3db7f4.png">
 
+--- 
 ## Responsividad
 Para el manejo de responsividad se utilizan las [**Grid**](https://mui.com/material-ui/react-grid/) de Material-UI. Se recomienda leer la documentación de este componente previo a utilizarlo. A continuación se muestra un ejemplo de la utilización de cuadrículas
 
@@ -82,14 +85,15 @@ A su vez, existe una Custom Hook llamada **useIsMobile** que regresa como valor 
 <img width="577" alt="image" src="https://user-images.githubusercontent.com/70722142/230921601-7e32a941-d50f-47bb-bb02-c0f75ca48196.png">
 
 
-
+--- 
 ## Estructura de una página y como crear una nueva página
 (Véase el componente Pages > Home) **jeje, al rato actualizo esta parte**
 
 <img width="145" alt="image" src="https://user-images.githubusercontent.com/70722142/230922274-2a89b29d-c7c5-4b87-a9e1-34886866fc0c.png">
 
-
+--- 
 ## Manejo de Usuarios y Permisos
 **En construcción**
+
 <img width="549" alt="image" src="https://user-images.githubusercontent.com/70722142/230922834-9ee23d47-3d61-4b2f-8ecf-4a53c371c985.png">
 
