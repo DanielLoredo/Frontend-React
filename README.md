@@ -57,15 +57,39 @@ En ocasiones, es necesario aplicar estilos en línea, o cambiar una sola propied
 
 A su vez, este acercamiento tiene la mayor prioridad en la jerarquía de CSS.
 
-### Theme
+### IMPORTANTE: Theme
 
 Finalmente, existen estilos globales aplicados en la **Theme** de la página que se encuentran en Utils > Theme.ts
 
 <img width="416" alt="image" src="https://user-images.githubusercontent.com/70722142/230918957-4bb28f7d-f2e1-4a3b-bf63-3d8f8f3db7f4.png">
 
 ## Responsividad
-Para el manejo de responsividad en la p
+Para el manejo de responsividad se utilizan las [**Grid**](https://mui.com/material-ui/react-grid/) de Material-UI. Se recomienda leer la documentación de este componente previo a utilizarlo. A continuación se muestra un ejemplo de la utilización de cuadrículas
+
+<img width="308" alt="image" src="https://user-images.githubusercontent.com/70722142/230920027-280cc8a9-d362-4125-8285-fba6162c483b.png">
+
+El resultado para una vista **md** o mayor como el de una computadora se aplican el tamaño indicado en el prop **md**
+
+<img width="1280" alt="image" src="https://user-images.githubusercontent.com/70722142/230920101-7e9dd139-fba9-44e7-bc7a-783f56b0a686.png">
+
+El resultado para una vista mayor a **xs** y menor a **md** como la de un dispositivo móvil es el siguiente:
+
+<img width="299" alt="image" src="https://user-images.githubusercontent.com/70722142/230920248-e6cf4271-c42e-40dd-8a03-79728851d189.png">
+
+### Reconocer el tamaño de la Pantalla (Computadora o Dispositivo Móvil)
+A su vez, existe una Custom Hook llamada **useIsMobile** que regresa como valor booleano si la vista actual es de un dispositivo móvil o de la pantalla de una computadora. Esto permite cambiar dinámicamente el contenido de la página dependiendo del tamaño de la pantalla. A continuación se muestra un ejemplo:
+
+<img width="577" alt="image" src="https://user-images.githubusercontent.com/70722142/230921601-7e32a941-d50f-47bb-bb02-c0f75ca48196.png">
+
+
 
 ## Estructura de una página y como crear una nueva página
+(Véase el componente Pages > Home) **jeje, al rato actualizo esta parte**
 
+<img width="145" alt="image" src="https://user-images.githubusercontent.com/70722142/230922274-2a89b29d-c7c5-4b87-a9e1-34886866fc0c.png">
+
+
+## Manejo de Usuarios y Permisos
+**En construcción**
+<img width="549" alt="image" src="https://user-images.githubusercontent.com/70722142/230922834-9ee23d47-3d61-4b2f-8ecf-4a53c371c985.png">
 
